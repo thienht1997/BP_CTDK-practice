@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Tinh cuoc phi dien thoai</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"> 
+    </head>
+    <body>
+        <script>
+	const phicodinh=25;
+	var sophutgoi = prompt('Nhap so phut da goi trong thang ');
+	if (sophutgoi > 200){
+		Cuocphi=(sophutgoi-200)*200+150*400+50*600;
+	}	else if (sophutgoi>50){
+		Cuocphi=(sophutgoi-50)*400+50*600;	
+	}
+	else 
+		Cuocphi=sophutgoi*600;
+	tong=0.01*Cuocphi+phicodinh*1000;	
+	alert('So tien phai nop cua ban la  ' +tong);	
+	</script>
+    </body>
+</html>

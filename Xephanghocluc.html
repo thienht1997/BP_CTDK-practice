@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Kiem tra hoc luc</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"> 
+    </head>
+    <body>
+        <script>
+	var Diemkiemtra = prompt('Nhap diem kiem tra');
+	var Diemthigiuaki = prompt('Nhap diem giua ki');
+	var Diemthicuoiki = prompt('Nhap diem cuoi ki');
+	DTB = (Diemkiemtra*2 + Diemthigiuaki*2+ Diemthicuoiki*3)/7
+	if(DTB<5){
+		alert('Hoc luc Yeu');
+	}	
+	else if (5<=DTB<=6.5){
+		alert('Hoc luc trung binh');
+	}
+	else if (6.5<=DTB<=8){
+		alert('Hoc luc kha');
+	}
+	else if (8<DTB<=10){
+		alert('Hoc luc gioi');
+	}
+	else 
+		alert('Sai gia tri vui long nhap lai');
+		
+	</script>
+    </body>
+</html>
